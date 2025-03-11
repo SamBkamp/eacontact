@@ -9,7 +9,7 @@ $("#emailForm").submit(function(e) {
     }
     
     console.log(d);
-    $.post("inventory.exotic-aqua.com/inventory", d, function(data){
+    $.post("https://inventory.exotic-aqua.com/inventory", d, function(data){
 	
     });
 });
